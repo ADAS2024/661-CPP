@@ -52,9 +52,9 @@ int monteCarloSim(double q, int z) {
 
     while (1) {
       if (attacker_blocks >= honest_blocks) {
-	return 1;
+        return 1;
       } else if (honest_blocks - attacker_blocks >= MAX_LEAD){
-	return 0;
+        return 0;
       }
 
 
