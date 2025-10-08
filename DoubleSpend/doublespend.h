@@ -20,7 +20,7 @@ int monteCarloSim(double q, int z) {
 
 }
 
-double monteCarlo(double q, int z, int numTrials) {
+double monteCarlo(double q, int z, int numTrials = 50000) {
 
 }
 
